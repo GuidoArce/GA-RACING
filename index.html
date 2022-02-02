@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Staatliches&family=Teko:wght@300;700&display=swap" rel="stylesheet">
+    <title>GA-RACING</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-black justify-content-center">
+        <a class="textNav navbar-brand" href="pages/merchandise.html">merchandise</a>
+        <a href="index.html"><img class="fluid-img" src="multimedia/logo.png"></a>
+        <a class="textNav navbar-brand" href="pages/contacto.html">contacto</a>
+    </nav>  
+    <section class="autos container">
+        <div class="row pt-5">
+            <div class="col-md-5">
+                <div class="card bg-black">
+                    <div class="card-header">
+                        <h2 class="tituloAutos">AGREGA LOS AUTOS</h1>
+                    </div>
+                    <div class="card-body">
+                        <form class="formulario" action="javascript:agregarAuto()">
+                            <div class="form-group">
+                                <input class="form-control mt-4" type="text" id="auto" placeholder="Escuderia"/>
+                                <input class="form-control mt-4" type="number" id="numero" placeholder="Numero de Auto"/>
+                                <div class="d-grid gap-2">
+                                <button class="btn btn-primary btn-block mt-4 boton" id="btn1">agregar auto</button>
+                                </div>
+                            </div>
+                        </form>
+                        <div>
+                            <button class="btn btn-primary btn-block mt-2 boton" id="btn2">borrar carrera</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-7">
+                <ul id="autos" class="autoParticipante text-center"></ul>
+            </div>
+        </div>
+    </section>
+    <script src="https://ajax.aspnetcdn.com/ajax/JQuery/jquery-3.6.0.min.js"></script>
+    <script src="js/carrera.js"></script>
+    <script src="js/components/button.js"></script>
+    <script src="js/components/animations.js"></script>
+</body>
+</html>

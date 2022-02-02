@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Staatliches&family=Teko:wght@300;700&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <nav>
+        <div>
+            <nav class="navbar navbar-dark bg-black justify-content-center">
+                <a class="textNav navbar-brand" href="../pages/merchandise.html">merchandise</a>
+                <a href="../index.html"><img class="fluid-img" src="../multimedia/logo.png"></a>
+                <a class="textNav navbar-brand" href="../pages/contacto.html">contacto</a>
+            </nav>  
+        </div>
+    </nav>
+    <form class="pregunta" id="formulario">
+        <div class="form-group container">
+            <div class="row gx-0">
+                <label class="form-control pregunta" for="name">Nombre:</label>
+                <input class="form-control mb-3" type="text" name="name" id="name" placeholder="Juan">
+                <label class="form-control pregunta" for="lastname">Apellido:</label>
+                <input class="form-control mb-3" type="text" name="lastname" id="lastname" placeholder="Perez">
+                <label class="form-control pregunta" for="email">E-Mail:</label>
+                <input class="form-control mb-3" type="e-mail" name="email" id="email" placeholder="juanPerez@gmail.com">
+            </div>
+            <div class="row gx-0 card">
+                <label class="card-header text-center" for="question">DEJANOS TU PREGUNTA</label>
+                <textarea class="card-body" name="question" id="question" cols="70" rows="8"></textarea>
+            </div>
+            <div class="btns">
+                <button class="btn btn-primary botonF" type="submit" id="send">enviar</button>
+                <button class="btn btn-primary botonF" type="reset" id="delete">borrar datos</button>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="https://ajax.aspnetcdn.com/ajax/JQuery/jquery-3.6.0.min.js"></script>
+<script src="../js/components/question.js"></script>
+<script src="../js/storage/storageName.js"></script>
+<script src="../js/storage/storageLastname.js"></script>
+<script src="../js/storage/storageEmail.js"></script>
+<script src="../js/storage/storageQuestion.js"></script>
+</html> 

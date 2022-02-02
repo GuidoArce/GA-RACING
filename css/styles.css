@@ -1,0 +1,138 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Staatliches', cursive;
+}
+
+/* NAVEGADOR */
+
+.textNav{
+    color: white;
+    transition: .3s;
+    font-family: 'Staatliches', cursive;
+    letter-spacing: 4.5px;
+}
+
+.textNav:hover{
+    transform: scale(.9);
+}
+
+/* AGREGADOR DE AUTOS */
+
+.tituloAutos{
+    color: white;
+}
+
+.autoParticipante li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: #1a1a1a;
+}
+
+.autoParticipante h2{
+    padding-top: .5rem;
+    color: white;
+}
+
+.autoParticipante button{
+    letter-spacing: .15rem;
+    width: 20%;
+    font-size: 1rem;
+    padding: 0.2rem;
+}
+
+.boton{
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+    width: 100%;
+}
+
+/* FORMULARIO */
+
+.pregunta{
+    color: #1a1a1a;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.botonF{
+    margin: 2rem 3rem;
+    height: 3rem;
+    width: 30rem;
+    font-size: 1.2rem;
+    letter-spacing: 3px;
+}
+
+/* ADMIN */
+
+.admin h1{
+    color: white;
+}
+
+/* MERCHANDISE */
+.tituloProducto{
+    font-size: 1.3rem;
+}
+
+.precioProducto{
+    color: black;
+}
+
+.botonProducto{
+    font-size: 1.1rem;
+    letter-spacing: .2rem;
+    transition: .2s;
+    width: 100%;
+}
+
+.botonProducto:hover{
+    transform: scale(.935);
+}
+
+.botonCarritoP {
+    background-color: white;
+    color: black;
+    transition: .2s;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+    width: 15%;
+}
+
+.botonTabla{
+    background-color: white;
+    color: black;
+    transition: .2s;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+}
+
+.botonCarrito{
+    background-color: white;
+    color: black;
+    transition: .2s;
+    letter-spacing: .2rem;
+    font-size: 1rem;
+    width: 30%;
+}
+
+.botonCarritoP:hover, .botonCarrito:hover, .botonTabla:hover{
+    color: black;
+    background-color: white;
+    transform: scale(.935);
+}
+
+.tabla{
+    color: white;
+    letter-spacing: .2rem;
+    font-size: 1.1rem;
+}

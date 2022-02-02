@@ -1,0 +1,50 @@
+[
+    {
+        "precio": 5000,
+        "id": 1,
+        "title": "Camiseta",
+        "img": "../multimedia/camiseta.png"
+    },
+    {
+        "precio": 3000,
+        "id": 2,
+        "title": "Gorra",
+        "img": "../multimedia/gorra.png"
+    },
+    {
+        "precio": 10000,
+        "id": 3,
+        "title": "Campera",
+        "img": "../multimedia/campera.png"
+    },
+    {
+        "precio": 8000,
+        "id": 4,
+        "title": "Termo",
+        "img": "../multimedia/termo.png"
+    },
+    {
+        "precio": 7500,
+        "id": 5,
+        "title": "Pantalon",
+        "img": "../multimedia/pantalon.png"
+    },
+    {
+        "precio": 6000,
+        "id": 6,
+        "title": "Chaleco",
+        "img": "../multimedia/chaleco.png"
+    },
+    {
+        "precio": 12000,
+        "id": 7,
+        "title": "Casco",
+        "img": "../multimedia/casco.png"
+    },
+    {
+        "precio": 2500,
+        "id": 8,
+        "title": "Mate",
+        "img": "../multimedia/mate.png"
+    }
+]

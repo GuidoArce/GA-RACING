@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles&family=Staatliches&family=Teko:wght@300;700&display=swap" rel="stylesheet">
+    <title>Merchandise</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+        <div>
+            <nav class="navbar navbar-dark bg-black justify-content-center">
+                <a class="textNav navbar-brand" href="../pages/merchandise.html">merchandise</a>
+                <a href="../index.html"><img class="fluid-img" src="../multimedia/logo.png"></a>
+                <a class="textNav navbar-brand" href="../pages/contacto.html">contacto</a>
+            </nav> 
+        </div>
+        <div class="container">
+            <template id="template-card">
+                <div class="col-12 mb-2 col-md-3">
+                    <div class="card">
+                        <img src="" alt="" class="card-img-top">
+                        <div class="card-body">
+                        <h4 class="tituloProducto fs-2"></h4>
+                        <h5 class="fs-5">Precio:</h5>
+                        <p class="precioProducto"></p>
+                        <button class="btn btn-primary botonProducto">comprar</button>
+                    </div>
+                </div>
+            </template>
+            <h1 class="tituloAutos">productos</h1>
+            <hr>
+            <div class="row" id="cards"></div>
+        </div>
+        <template id="template-footer">
+            <th scope="row" colspan="2"></th>
+            <td></td>
+            <td>
+            <button class="btn btn-sm botonTabla" id="vaciar-carrito">
+                vaciar todo
+            </button>
+            </td>
+            <td class="font-weight-bold"><span></span></td>
+            <td>
+            <button class="btn btn-sm botonTabla" id="comprar-carrito">
+                comprar
+            </button>
+            </td>
+        </template>
+        <template id="template-carrito">
+            <tr>
+                <th scope="row"></th>
+                <td></td>
+                <td></td>
+                <td>
+                <button class="btn btn-info btn-sm fs-4 botonCarritoP">
+                    +
+                </button>
+                <button class="btn btn-danger btn-sm fs-4 botonCarritoP">
+                    -
+                </button>
+                </td>
+                <td><span></span></td>
+            </tr>
+        </template>
+        <table class="table tabla">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">producto</th>
+                    <th scope="col">cantidad</th>
+                    <th scope="col">agregar o quitar</th>
+                    <th scope="col">total</th>
+                </tr>
+            </thead>
+            <tbody id="items"></tbody>
+            <tfoot>
+                <tr id="footer">
+                    <th scope="row" colspan="5">Carrito vacío. Compre algo!</th>
+                </tr>
+            </tfoot>
+        </table>
+        <script src="https://ajax.aspnetcdn.com/ajax/JQuery/jquery-3.6.0.min.js"></script>
+        <script src="../js/data/api.json"></script>
+        <script src="../js/merchan.js"></script>
+</body>
+</html>
+
