@@ -7,5 +7,3 @@ if (sessionStorage.getItem("E-MAIL")){
 $(email).change (function(){
     sessionStorage.setItem("E-MAIL", email.value)
 })
-
-console.log(JSON.stringify(email.value))

@@ -1,6 +1,7 @@
 // Enviar
 function sendQuestion (event) {
     console.log ('Pregunta enviada')
+    alert ("Tu pregunta sera contestada en la brevedad")
     event.preventDefault()
 }
 

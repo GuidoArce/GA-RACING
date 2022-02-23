@@ -7,5 +7,3 @@ if (sessionStorage.getItem("Pregunta")){
 $(pregunta).change (function(){
     sessionStorage.setItem("Pregunta", pregunta.value)
 })
-
-console.log(JSON.stringify(pregunta.value))
